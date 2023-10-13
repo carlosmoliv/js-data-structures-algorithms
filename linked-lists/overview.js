@@ -19,3 +19,24 @@
 
 // This is a difference between linked lists and arrays because arrays we can go to the next index as an O(1) operation
 // But in a linked list, we have to traverse the entire linked list to get to the next node
+
+/** 
+ * What looks like under the hood:
+ * { 
+ *   head: { 
+ *     value: 12, 
+ *     next: { 
+ *       value: 99,
+ *       next: { 
+ *         value: 37, 
+ *         next: null (tail)
+ *       } 
+ *     } 
+ *   } 
+ * }
+ * 
+ * */ 
+
+
+
+
