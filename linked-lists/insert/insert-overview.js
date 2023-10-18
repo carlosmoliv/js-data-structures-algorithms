@@ -47,6 +47,8 @@ class LinkedList {
     return this;
   }
 
+  // Complexity O(n)
+  // Because we have to traverse the list to get the previous node
   insert(index, value) {
     if (index < 0 || index > this.length) return undefined;
     if (index === this.length) return this.push(value);
