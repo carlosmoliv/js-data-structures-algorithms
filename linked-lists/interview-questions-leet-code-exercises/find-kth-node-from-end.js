@@ -61,7 +61,7 @@ class LinkedList {
   /////////////////////////////////////////
 
   // Complexity O(n)
-  // In the worst-case scenario, both loops contribute to the time complexity of O(n). 
+  // In the worst-case scenario, both loops contribute to the time complexity of O(n).
   // The overall time complexity of the function is O(n + n), which simplifies to O(2n) or simply O(n), as constant factors are typically dropped in Big O notation.
   findKthFromEnd(k) {
     let slow = this.head;
