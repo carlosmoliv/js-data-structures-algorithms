@@ -74,7 +74,6 @@ class DoublyLinkedList {
 
     while (start !== null && end !== null) {
       if (start.value !== end.value) return false;
-
       start = start.next;
       end = end.prev;
     }
@@ -84,7 +83,6 @@ class DoublyLinkedList {
 
   // isPalindrome() {
   //   if (this.length <= 1) return true;
-
   //   let forwardNode = this.head;
   //   let backwardNode = this.tail;
   //   for (let i = 0; i < Math.floor(this.length / 2); i++) {
